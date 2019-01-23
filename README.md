@@ -13,6 +13,8 @@ We will introduce elements of the theory of topological data analysis (TDA) and 
  - **Notebooks and more material will be uploaded shortly before the tutorial on Saturday 26th.**
 
 ## Requirements
+Please install the following packages (stay tuned the list might grow...):
+
 - Jupyter notebook
 - [scikit-tda](https://scikit-tda.org)
 - [dionysus2](http://mrzv.org/software/dionysus2/)
