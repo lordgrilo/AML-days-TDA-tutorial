@@ -12,16 +12,26 @@ We will introduce elements of the theory of topological data analysis (TDA) and 
  Note that the ```data``` folder is heavy (around 300mb) due to the dataset of fMRI timeseries. It will be useful during the workshop, but you might want to download only some of the timeseries in case you have issues with space.
  - **Notebooks and more material will be uploaded shortly before the tutorial on Saturday 26th.**
 
-## Requirements
-Please install the following packages (stay tuned the list might grow...):
+## Requirements and instructions
+Requirements:
+- boost
+- cmake
 
-- Jupyter notebook
+Please install the following packages (and all their dependencies) (stay tuned the list might grow...):
+- Jupyter notebook 
+- scikit-learn 
+- networkx 
+- pandas 
+- matplotlib 
+- Cython 
+- ipywidgets (remember to activate them for jupyter) 
+- keras 
+- xgboost 
+- plotly 
+- umap-learn 
+- pillow 
+
+Not available in conda:
+- ripser
 - [scikit-tda](https://scikit-tda.org)
 - [dionysus2](http://mrzv.org/software/dionysus2/)
-- Cython
-- ripser
-- ipywidgets
-- keras
-- plotly
-- umap
-- pillow
